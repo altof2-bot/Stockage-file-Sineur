@@ -4,15 +4,15 @@ import os
 
 
 class Config(object):
-	API_ID = int(os.environ.get("API_ID", "0"))
-	API_HASH = os.environ.get("API_HASH")
-	BOT_TOKEN = os.environ.get("BOT_TOKEN")
-	BOT_USERNAME = os.environ.get("BOT_USERNAME")
-	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-100"))
-	BOT_OWNER = int(os.environ.get("BOT_OWNER", "1445283714"))
+	API_ID = int(os.environ.get("24777493", "0"))
+	API_HASH = os.environ.get("bf5a6381d07f045af4faeb46d7de36e5")
+	BOT_TOKEN = os.environ.get("7370116292:AAGsvQdFv2ffT2gMFiQSRQ20lP3oiHxFYTA")
+	BOT_USERNAME = os.environ.get("@Sineur_stockage_filebot")
+	DB_CHANNEL = int(os.environ.get("DB_CHANNEL", "-1001900627149"))
+	BOT_OWNER = int(os.environ.get("BOT_OWNER", "5116530698"))
 	DATABASE_URL = os.environ.get("DATABASE_URL")
-	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "")
-	LOG_CHANNEL = os.environ.get("LOG_CHANNEL", None)
+	UPDATES_CHANNEL = os.environ.get("UPDATES_CHANNEL", "-1001900627149")
+	LOG_CHANNEL = os.environ.get("-1001900627149", None)
 	BANNED_USERS = set(int(x) for x in os.environ.get("BANNED_USERS", "1234567890").split())
 	FORWARD_AS_COPY = bool(os.environ.get("FORWARD_AS_COPY", True))
 	BROADCAST_AS_COPY = bool(os.environ.get("BROADCAST_AS_COPY", False))
